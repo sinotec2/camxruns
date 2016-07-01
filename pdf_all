@@ -1,0 +1,14 @@
+#note! the argument must be quoted as "$1"
+first=1
+for i in $(ls  $1".pdf"|cut -d'.' -f 1) ;do
+if [ "$first" == "1" ]; then
+        cp -f $i".pdf" result.pdf
+        first=0
+else
+     gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=tmp.pdf result.pdf $i".pdf"
+     mv tmp.pdf result.pdf
+fi
+echo $first"  "$i
+done
+mv result.pdf $2.pdf
+
