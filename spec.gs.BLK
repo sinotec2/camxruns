@@ -1,3 +1,238 @@
+<<<<<<< HEAD
+'reinit'
+'clear'
+SPE=spe
+"open epa.ctl"
+"q file 1"
+rec = sublin(result,5)
+HHH = subwrd(rec,3)
+i=1
+while(i<=8)
+ii=(i*2-1)+6
+rec = sublin(result,ii)
+sso = subwrd(rec,1)
+sss = substr(sso,1,3)
+if(sss=SPE)
+spnm=subwrd(rec,4)
+spun=subwrd(rec,5)
+endif
+i=i+1
+endwhile
+'set string 1 bc'
+'set strsiz 0.15'
+'set csmooth on'
+'set grads off'
+'set ccolor 2'
+"set x 1"
+"set y 1"
+"set t 1 "HHH
+ipage=1
+while (ipage <=6)
+is=(ipage-1)*10+1
+isb=is
+isend=isb+9
+if (isend > 57) ;isend=57;endif
+while (is <= isend)
+"set digsiz 0.05"
+ist=num_of_st(is)
+jst=ist-1+1
+ast=nam_of_st(jst)
+iss=is-isb+1
+vv=10-iss*1
+tt=vv+2.0
+*"set parea 0 8.5 0 11"
+"set vpage 0. 8 "vv" "tt
+"set grads off"
+'set gxout stat'
+"d "SPE"o(stid="ist")"
+data = sublin(result,8)
+ymx = subwrd(data,5)
+ymn = subwrd(data,4)
+"d "SPE"m(stid="ist")"
+data = sublin(result,8)
+zmx = subwrd(data,5)
+zmn = subwrd(data,4)
+if (zmx > ymx) ; ymx = zmx ; endif
+if (zmn < ymn) ; ymn = zmn ; endif
+"set gxout line"
+di1=(ymx-ymn)/4/10
+di2=int(di1)
+if (di2 < 1) ; di2 = 1 ; endif
+div=di2*10
+"set ylint "div
+"set xlint 24"
+'set vrange 'ymn' 'ymx
+'set line 1 1 6'
+'set strsiz 0.03 0.03'
+"set cthick 15"
+"d "SPE"o(stid="ist")"
+'set line 1 2 3'
+"d "SPE"m(stid="ist")"
+'set strsiz 0.1 0.08'
+"draw string 1.2 1.2 " ist
+"draw string 1.2 1 " ast
+is=is+1
+endwhile
+ast0=num_of_st(isb)
+ast1=num_of_st(isend)
+'set strsiz 0.15 0.1'
+"draw string 4.5 0.2 "spnm" "spun" of Station " ast0 " to " ast1 "(o for obs)"
+*pull dummy
+"printim "ipage".png x1700 y2200 white"
+clear
+ipage=ipage+1
+endwhile
+quit
+return
+end
+*'close 1'
+function num_of_st(is)
+nst.1=001
+nst.2=002
+nst.3=003
+nst.4=004
+nst.5=005
+nst.6=006
+nst.7=007
+nst.8=008
+nst.9=009
+nst.10=010
+nst.11=011
+nst.12=012
+nst.13=013
+nst.14=014
+nst.15=015
+nst.16=017
+nst.17=018
+nst.18=020
+nst.19=021
+nst.20=022
+nst.21=023
+nst.22=024
+nst.23=026
+nst.24=027
+nst.25=028
+nst.26=029
+nst.27=030
+nst.28=031
+nst.29=032
+nst.30=033
+nst.31=035
+nst.32=036
+nst.33=037
+nst.34=038
+nst.35=039
+nst.36=040
+nst.37=042
+nst.38=043
+nst.39=044
+nst.40=045
+nst.41=046
+nst.42=047
+nst.43=049
+nst.44=051
+nst.45=052
+nst.46=053
+nst.47=054
+nst.48=056
+nst.49=058
+nst.50=059
+nst.51=060
+nst.52=061
+nst.53=062
+nst.54=063
+nst.55=065
+nst.56=066
+nst.57=069
+ist=nst.is
+return ist
+function nam_of_st(is)
+nst.1=KeeLong
+nst.2=Xizhi
+nst.3=WanLi
+nst.4=XinDian
+nst.5=TuCheng
+nst.6=BanQiao
+nst.7=XinZhuang
+nst.8=CaiLiao
+nst.9=LinKo
+nst.10=ShiLin
+nst.12=ZhongShan
+nst.13=WanHua
+nst.14=GutTing
+nst.15=SongShan
+nst.17=TaoYuan
+nst.18=DaYuan
+nst.20=PingZhen
+nst.21=LongTan
+nst.22=HuKo
+nst.23=ZhuDong
+nst.24=XinZhu
+nst.26=MiaoLi
+nst.27=SanYi
+nst.28=FengYuan
+nst.29=ShaLu
+nst.30=DaLi
+nst.31=ZhongMing
+nst.32=XiTun
+nst.33=ZhangHua
+nst.35=ErLin
+nst.36=NanTou
+nst.37=DouLui
+nst.38=LunBei
+nst.39=XinGang
+nst.40=PuZhi
+nst.42=JiaYi
+nst.43=XinYing
+nst.44=ShanHua
+nst.45=AnNan
+nst.46=TaiNan
+nst.47=MeiNong
+nst.49=RenWu
+nst.51=DaLiao
+nst.52=LinYuan
+nst.53=NanZi
+nst.54=ZuoYing
+nst.56=QianJin
+nst.58=XiaoGang
+nst.59=PinDong
+nst.60=ChaoZhou
+nst.61=HengChun
+nst.62=TaiDong
+nst.63=HuaLian
+nst.65=YiLan
+nst.66=DongShan
+nst.69=ZhuShan
+ast=nst.is
+return ast
+function frme(v)
+"set gxout line"
+"set vrange 0 1"
+"set ylab off"
+"set cmark 1"
+"set grads off"
+"set xlopts 1 4 0.1"
+"set xlint 48"
+"set ylint 20"
+"set xlpos 0 b"
+return
+* Take a floating-point (decimal) number as a parameter and returns a truncated integer (with no decimal point)
+function int(num)
+  outnum = ''
+  i = 1
+  while(i <= strlen(num))
+    char = substr(num,i,1)
+    if(char = ".")
+      break
+    else
+      outnum = outnum%char
+      i = i+1
+    endif
+  endwhile
+
+return outnum
+
+=======
 'reinit'
 'clear'
 SPE=spe
@@ -192,3 +427,4 @@ function int(num)
 
 return outnum
 
+>>>>>>> master
