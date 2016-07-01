@@ -1,0 +1,135 @@
+ 
+ &CAMx_Control
+
+ Run_Message      = 'CAMx 6.00 CF CB05 RUN',
+
+!--- Model clock control ---
+
+ Time_Zone        = -8,                 ! (0=UTC,5=EST,6=CST,7=MST,8=PST)
+ Restart          = .LRST.,
+ Start_Date_Hour  = 20YB,M1,DB,2000,   ! 
+ End_Date_Hour    = 20YY,MM,DE,2000,   ! 
+
+
+ Maximum_Timestep    = 15.,            ! minutes
+ Met_Input_Frequency = 60.,            ! minutes
+ Ems_Input_Frequency = 60.,            ! minutes
+ Output_Frequency    = 60.,            ! minutes
+
+!--- Map projection parameters ---
+
+ Map_Projection           = 'LAMBERT',  ! (LAMBERT,POLAR,UTM,LATLON)
+ LAMBERT_Center_Longitude =120.9900,
+ LAMBERT_Center_Latitude  = 23.61000,
+ LAMBERT_True_Latitude1   = 10.000,
+ LAMBERT_True_Latitude2   = 40.000,
+
+!--- Parameters for the master (first) grid ---
+
+ Number_of_Grids      = 2,
+ Master_Origin_XCoord =  -877.500,     ! km or deg, SW corner of cell(1,1)
+ Master_Origin_YCoord =  -877.500,     ! km or deg, SW corner of cell (1,1)
+ Master_Cell_XSize    =  27.,          ! km or deg
+ Master_Cell_YSize    =  27.,          ! km or deg
+ Master_Grid_Columns  = 65,
+ Master_Grid_Rows     = 65,
+ Number_of_Layers     = 15,
+
+
+!--- Parameters for the second grid ---
+
+ Nest_Meshing_Factor(2) = 9,           ! Cell size relative to master grid
+ Nest_Beg_I_Index(2)    = 29,          ! Relative to master grid
+ Nest_End_I_Index(2)    = 37,          ! Relative to master grid
+ Nest_Beg_J_Index(2)    = 26,          ! Relative to master grid
+ Nest_End_J_Index(2)    = 40,          ! Relative to master grid
+
+!--- Model options ---
+
+ Diagnostic_Error_Check = .false.,      ! True = will stop after 1st timestep
+ Advection_Solver       = 'PPM',        ! (PPM,BOTT)
+ Chemistry_Solver       = 'EBI',        ! (EBI,IEH,LSODE)
+ PiG_Submodel           = 'GREASD',       ! (None,GREASD,IRON)
+ Probing_Tool           = 'None',       ! (None,OSAT,GOAT,APCA,PSAT,DDM,PA,RTRAC)
+ Chemistry              = .true.,
+ Drydep_Model           = 'WESELY89',   ! (None,WESELY89,ZHANG03)
+ Wet_Deposition         = .true.,
+ ACM2_Diffusion         = .false.,
+ Super_Stepping         = .true.,
+ Gridded_Emissions      = .true.,
+ Point_Emissions        = .true.,
+ Ignore_Emission_Dates  = .true.,
+ Flexi_Nest             = .true.,
+
+!--- Output specifications ---
+
+ Root_Output_Name         = 'outputs/conMM/YYMM_ROOT',
+ Average_Output_3D        = .true.,
+ HDF_Format_Output        = .false.,
+ HDF_File_Root            = '',
+ Output_Species_Names(1)   = 'NO',
+ Output_Species_Names(2)   = 'NO2',
+ Output_Species_Names(3)   = 'O3',
+ Output_Species_Names(4)   = 'SO2',
+ Output_Species_Names(5)   = 'NH3',
+ Output_Species_Names(6)   = 'PNO3',
+ Output_Species_Names(7)   = 'PSO4',
+ Output_Species_Names(8)   = 'PNH4',
+ Output_Species_Names(9)   = 'POA',
+ Output_Species_Names(10)  = 'PEC',
+ Output_Species_Names(11)  = 'FPRM',
+ Output_Species_Names(12)  = 'CPRM',
+ Output_Species_Names(13)  = 'CCRS',
+ Output_Species_Names(14)  = 'FCRS',
+ Output_Species_Names(15)  = 'SOA1',
+ Output_Species_Names(16)  = 'SOA2',
+ Output_Species_Names(17)  = 'SOA3',
+ Output_Species_Names(18)  = 'SOA4',
+ Output_Species_Names(19)  = 'SOA5',
+ Output_Species_Names(20)  = 'SOA6',
+ Output_Species_Names(21)  = 'NA',
+ Output_Species_Names(22)  = 'PCL',
+ Output_Species_Names(23)  = 'PAR',
+ Output_Species_Names(24)  = 'ETHA',
+ Output_Species_Names(25)  = 'MEOH',
+ Output_Species_Names(26)  = 'ETOH',
+ Output_Species_Names(27)  = 'ETH',
+ Output_Species_Names(28)  = 'OLE',
+ Output_Species_Names(29)  = 'IOLE',
+ Output_Species_Names(30)  = 'ISOP',
+ Output_Species_Names(31)  = 'TERP',
+ Output_Species_Names(32)  = 'FORM',
+ Output_Species_Names(33)  = 'ALD2',
+ Output_Species_Names(34)  = 'ALDX',
+ Output_Species_Names(35)  = 'TOL',
+ Output_Species_Names(36)  = 'XYL', 
+ Output_Species_Names(37)  = 'PRPA',
+ Output_Species_Names(38)  = 'BENZ',
+ Output_Species_Names(39)  = 'ETHY',
+ Output_Species_Names(40)  = 'ACET',
+ Output_Species_Names(41)  = 'KET',
+
+!--- Input files ---
+
+ Chemistry_Parameters = './inputs/CAMx6.0.chemparam.7_CF',
+ Photolyis_Rates      = './tuv/tuv4.8.camx6.00/tuv.ps2str_CB6.YYMM01.d2',
+ Ozone_Column         = './toms/o3map.20YYMM01.d2',
+ Initial_Conditions   = './ICBC/bndextr/base.grd02.YYMM.ic',
+ Boundary_Conditions  = './ICBC/bndextr/base.grd02.YYMM.bc',
+ Point_Sources        = './ptse/fortBE.14_ROOT',
+ Master_Grid_Restart  = 'outputs/conM1/YYM1_ROOT.inst',
+ Nested_Grid_Restart  = 'outputs/conM1/YYM1_ROOT.finst',
+ PiG_Restart          = 'outputs/conM1/YYM1_ROOT.pig',
+ Surface_Grid(1) = './met/d2.lu',
+ Met3D_Grid(1)   = './met/mmMM/YYMMd2.3d',
+ Met2D_Grid(1)   = './met/mmMM/YYMMd2.2d',
+ Vdiff_Grid(1)   = './met/mmMM/YYMMd2.kv',
+ Cloud_Grid(1)   = './met/mmMM/YYMMd2.cr',
+ Emiss_Grid(1)   = './emis/baseP8h_voc.75_night_O3.8/fortBE.213.baseP8h',
+ Surface_Grid(2) = './met/d4.lu',
+ Met3D_Grid(2)   = './met/mmMM/YYMMd4.3d',
+ Met2D_Grid(2)   = './met/mmMM/YYMMd4.2d',
+ Vdiff_Grid(2)   = './met/mmMM/YYMMd4.kv',
+ Cloud_Grid(2)   = './met/mmMM/YYMMd4.cr',
+ Emiss_Grid(2)   = './emis/baseP8h_voc.75_night_O3.8/fortBE.413.baseP8h',
+&
