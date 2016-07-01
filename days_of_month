@@ -1,0 +1,14 @@
+MM=$1
+test $MM -eq 1 && MON="31"
+test $MM -eq 2 && MON="28"
+test $MM -eq 3 && MON="31"
+test $MM -eq 4 && MON="30"
+test $MM -eq 5 && MON="31"
+test $MM -eq 6 && MON="30"
+test $MM -eq 7 && MON="31"
+test $MM -eq 8 && MON="31"
+test $MM -eq 9 && MON="30"
+test $MM -eq 10 && MON="31"
+test $MM -eq 11 && MON="30"
+test $MM -eq 12 && MON="31"
+echo $MON
