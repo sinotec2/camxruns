@@ -1,0 +1,735 @@
+name                          saroa     num cas             mw   OLE   PAR   TOL   XYL  FORM  ALD2   ETH  ISOP    NR  ETHA  MEOH  ETOH  IOLE  TERP  ALDX  PRPA  BENZ  ETHY  ACET   KET
+ISOMERS OF HEXANE              43105       1              86.17         6.0
+ISOMERS OF HEPTANE             43106       2             100.20         7.0
+ISOMERS OF OCTANE              43107       3             114.23         8.0
+ISOMERS OF NONANE              43108       4             128.25         9.0
+ISOMERS OF DECANE              43109       5             142.28        10.0
+ISOMERS OF UNDECANE            43110       6             156.30        11.0
+ISOMERS OF DODECANE            43111       7             170.32        12.0
+ISOMERS OF TRIDECANE           43112       8             184.36        13.0
+ISOMERS OF TETRADECANE         43113       9             198.38        14.0
+ISOMERS OF PENTADECANE         43114      10             212.41        15.0
+C-7 CYCLOPARAFFINS             43115      11              98.19         7.0
+C-8 CYCLOPARAFFINS             43116      12             112.23         8.0
+C-9 CYCLOPARAFFINS             43117      13             126.26         9.0
+MINERAL SPIRITS                43118      14  64475850   114.00         6.0                     1.0
+LACTOL SPIRITS                 43119      15             114.00         8.0
+ISOMERS OF BUTENE              43120      16              56.10                                 2.0
+ISOMERS OF PENTENE             43121      17              70.13         1.0                     2.0
+ISOMERS OF PENTANE             43122      18              72.15         5.0
+TERPENES                       43123      19             136.23                                                                                 1.0
+C9 OLEFINS                     43124      20             126.24
+C10 OLEFINS                    43125      21             140.27
+C2 CYCLOHEXANE                 43126      22             112.22
+C3 CYCLOHEXANE                 43127      23             126.24
+C5 CYCLOHEXANE                 43128      24             154.30
+C4 SUBSTITUTED CYCLOHEXANE     43129      25             140.27
+C5 SUBSTITUTED CYCLOHEXANE     43130      26             154.30
+C6 SUBSTITUTED CYCLOHEXANE     43131      27             168.32
+ALIPHATICS                     43132      28             100.00
+PARAFFINS (C16-C34)            43133      29             352.43
+PARAFFINS/OLEFINS (C12-C16)    43134      30             197.38
+C10 PARAFFINS                  43135      31             142.28
+C9 PARAFFIN                    43136      32             128.25
+C16 BRANCHED ALKANE            43137      33             226.45
+C-8 OLEFINS                    43138      34             112.23
+PARAFFINS (C2-C7)              43139      35              65.14
+C7-C16 PARAFFINS               43140      36             156.31
+C8 PARAFFIN                    43141      37             114.23
+C7 PARAFFINS                   43142      38             100.20
+C5 OLEFIN                      43143      39              70.13
+C5 PARAFFIN                    43144      40              72.15
+C5 PARAFFIN/OLEFIN             43145      41              70.13
+C11 OLEFINS                    43146      42             154.29
+C12 OLEFINS                    43147      43             168.32
+ISOMERS OF C9H16               43148      44             124.23
+C8H14                          43149      45             110.20
+ISOMERS OF C10H18              43150      46             138.25
+ISOMERS OF C11H20              43151      47             152.28
+C12H22                         43152      48             166.31
+C10H16                         43153      49             136.24
+C7H12                          43154      50              96.17
+ISOMERS OF HEPTADECANE         43155      51             240.47
+ISOMERS OF OCTADECANE          43156      52             254.50
+METHANE                        43201      53     74828    16.04
+ETHANE                         43202      54     74840    30.07                                                         1.0
+ETHYLENE                       43203      55     74851    28.05                                       1.0
+PROPANE                        43204      56     74986    44.09                                                                                             1.0
+PROPENE                        43205      57    115071    42.08   1.0   1.0
+ACETYLENE                      43206      58     74862    26.04         1.0                                       1.0
+PROPADIENE                     43208      59    463490    40.06   1.5
+METHYLACETYLENE (PROPYNE)      43209      60     74997    40.06         1.5                                       1.5
+3-METHYL-1-PENTENE             43211      61    760203    84.16   1.0   4.0
+N-BUTANE                       43212      62    106978    58.12         4.0
+BUTENE                         43213      63    106989    56.10   1.0   2.0
+ISO-BUTANE                     43214      64     75285    58.12         4.0
+ISOBUTYLENE                    43215      65    115117    56.10         1.0               1.0   1.0
+T-2-BUTENE                     43216      66    624646    56.11                                 2.0
+CIS-2-BUTENE                   43217      67    590181    56.11                                 2.0
+1,3-BUTADIENE                  43218      68    106990    54.09   2.0
+N-PENTANE                      43220      69    109660    72.15         5.0
+ISO PENTANE                    43221      70     78784    72.15
+2,2 DIMETHYLPROPANE            43222      71    463821    72.17
+3-METHYL-1-BUTENE              43223      72    563451    70.13   1.0   3.0
+1-PENTENE                      43224      73    109671    70.13   1.0   3.0
+2-METHYL-1-BUTENE              43225      74    563462    70.13   1.0   3.0
+TRANS-2-PENTENE                43226      75    646048    70.13         1.0                     2.0
+CIS-2-PENTENE                  43227      76    627203    70.13         1.0                     2.0
+2-METHYL-2-BUTENE              43228      77    513359    70.13         3.0                     1.0
+2-METHYLPENTANE                43229      78    107835    86.17         6.0
+3-METHYL PENTANE               43230      79     96140    86.17         6.0
+HEXANE                         43231      80    110543    86.17         6.0
+HEPTANE                        43232      81    142825   100.20         7.0
+OCTANE                         43233      82    111659   114.23         8.0
+2,3 DIMETHYL-1-BUTENE          43234      83    563780    84.16   1.0   4.0
+NONANE                         43235      84    111842   128.25         9.0
+N-DECANE                       43238      85    124185   142.28        10.0
+N-UNDECANE                     43241      86   1120214   156.31        11.0
+CYCLOPENTANE                   43242      87    287923    70.14         5.0
+ISOPRENE                       43243      88     78795    68.12   2.0   1.0
+1-HEXENE                       43245      89    592416    84.16   1.0   4.0
+2,4-DIMETHYLPENTANE            43247      90    108087   100.20
+CYCLOHEXANE                    43248      91    110827    84.16         6.0
+2,2,4-TRIMETHYLPENTANE         43250      92    540841   114.22
+2,3,4-TRIMETHYLPENTANE         43252      93    565753   114.22
+3-METHYLHEPTANE                43253      94    589811   114.23
+N-DODECANE                     43255      95    112403   170.33        12.0
+A-PINENE                       43256      96     80568   136.24
+B-PINENE                       43257      97    127913   136.24
+N-TRIDECANE                    43258      98    629505   184.36        13.0
+N-TETRADECANE                  43259      99    629594   198.38        14.0
+N-PENTADECANE                  43260     100    629629   212.41        15.0
+METHYLCYCLOHEXANE              43261     101    108872    98.21         7.0
+METHYLCYCLOPENTANE             43262     102     96377    84.16         6.0
+2-METHYL HEXANE                43263     103    591764   100.20
+HEPTENE                        43264     104              98.18         6.0
+OCTENE                         43265     105    111660   112.21   1.0   6.0
+1-NONENE                       43267     106    124118   126.24   1.0   7.0
+3-METHYL-T-2-PENTENE           43270     107    922612    84.16         4.0                     1.0
+3,5,5-TRIMETHYLHEXANE          43271     108             128.26
+METHYLCYCLOPENTENE             43272     109    693890    82.14         2.0                                                               1.0
+CYCLOHEXENE                    43273     110    110838    82.14         2.0                                                               1.0
+2,3 DIMETHYL PENTANE           43274     111    565593   100.20         7.0
+2,3 DIMETHYLBUTANE             43276     112     79298    86.17
+2,4-DIMETHYLHEXANE             43277     113             114.22         8.0
+2,5-DIMETHYLHEXANE             43278     114    592132   114.22         8.0
+2-ETHYL-1-BUTENE               43279     115    760214    84.16
+2,3,3 TRIMETHYLPENTANE         43280     116             114.22         8.0
+1-BUTYNE                       43281     117    107006    54.09
+2-BUTYNE                       43282     118    503173    54.09
+C-3-HEXENE                     43283     119              84.16
+2-METHYL-2-PENTENE             43284     120    625274    84.16
+2-HEXENE                       43285     121              84.16
+DIMETHYLHEXENE                 43286     122             112.20
+2,2 DIMETHYLHEXANE             43287     123    590738   114.22
+ETHYLCYCLOHEXANE               43288     124   1678917   112.23         8.0
+C6 OLEFINS                     43289     125              84.16   1.0   4.0
+2,3 DIMETHYLHEXANE             43290     126             114.22
+2,2-DIMETHYLBUTANE             43291     127     75832    86.17         6.0
+CYCLOPENTENE                   43292     128    142290    68.11         1.0                                                               1.0
+4-METHYL-T-2-PENTENE           43293     129  27236460    84.18         2.0                     2.0
+C7 OLEFINS                     43294     130              98.18   1.0   5.0
+3-METHYLHEXANE                 43295     131    589344   100.20         7.0
+2-METHYLHEPTANE                43296     132    592278   114.23         8.0
+4-METHYLHEPTANE                43297     133    589537   114.23         8.0
+3-METHYLHEPTANE                43298     134             114.23         8.0
+1-METHYLCYCLOHEXENE            43299     135              96.17
+METHYL ALCOHOL                 43301     136     67561    32.04                                                               1.0
+ETHYL ALCOHOL                  43302     137     64175    46.07                                                                     1.0
+N-PROPYL ALCOHOL               43303     138     71238    60.10         3.0
+ISO-PROPYL ALCOHOL             43304     139     67630    60.09         3.0
+N-BUTYL ALCOHOL                43305     140     71363    74.12         2.0                     1.0
+ISOBUTYL ALCOHOL               43306     141     78831    74.12         4.0
+BUTYL CELLOSOLVE               43308     142    111762   118.17         6.0
+TERT-BUTYL ALCOHOL             43309     143     75650    74.12                                                   4.0
+METHYL CELLOSOLVE              43310     144    109864    76.11         1.0                     1.0
+CELLOSOLVE                     43311     145    110805    90.12         2.0                     1.0
+2-(2-BUTOXYETHOXY)-ETHANOL     43312     146    112345   162.26
+1-ETHOXY-2-PROPANOL            43313     147             104.15
+S-BUTYL ALCOHOL                43314     148     78922    74.12
+CYCLOHEXANOL                   43317     149    108930   100.16
+2-ETHYL HEXANOL                43318     150    104767   130.23
+PENTANOL                       43319     151     71410    88.15
+DIACETONE ALCOHOL              43320     152    123422   116.18         4.0                     1.0
+1,4 BUTANEDIOL                 43322     153    110634    90.12
+ISOAMYL ALCOHOL                43330     154    123513    88.15
+DIMETHYLPENTANOL               43331     155  10143234   116.20
+DIMETHYLOCTANOL                43332     156    106218   158.32
+DIMETHYLHEPTANOL               43333     157             144.26
+METHYLHEPTANOL                 43334     158             130.26
+METHOXYETHOXYETHANOL           43335     159             120.15
+OCTANOL                        43336     160             130.26
+BUTOXYETHOXYETHANOL            43337     161    112345   162.23
+DIMETHYLETHER                  43350     162    115106    46.07
+ETHYL ETHER                    43351     163     60297    74.12         2.0                     1.0
+GLYCOL ETHER                   43367     164    111466   106.14         2.0
+GLYCOL                         43368     165              61.09         2.0
+PROPYLENE GLYCOL               43369     166     57556    76.11         3.0
+ETHYLENE GLYCOL                43370     167    107211    62.07         2.0
+HEXYLENE GLYCOL                43371     168    107415   118.18         6.0
+DIBUTYL ETHER                  43372     169    142961   130.23
+DIETHYLENE GLYCOL              43373     170    111466   106.12
+DIPROPYLENE GLYCOL             43374     171    106627   134.18
+TRIETHYLENE GLYCOL             43375     172    112276   150.17
+METHYL T-BUTYL ETHER           43376     173    628284    88.15
+CARBITOL                       43377     174    111900   134.18
+METHYL CARBITOL                43378     175    111773   120.15
+BUTYL CARBITOL                 43379     176    112345   162.23
+GLYCEROL                       43380     177     56815    92.09
+POLYETHYLENE GLYCOL            43381     178  25322683   200.00
+2-BUTYLTETRAHYDROFURAN         43391     179             128.19
+ETHYLFURAN                     43392     180              96.14
+C7H12O                         43395     181             112.17
+C10H16O                        43396     182             152.24
+TRIMETHYLCYCLOHEXANOL          43397     183             142.24
+C5H10O                         43399     184              86.13
+FORMIC ACID                    43403     185     64186    46.03
+ACETIC ACID                    43404     186     64197    60.05         1.0                                       1.0
+PROPIONIC ACID                 43405     187     79094    74.08
+ACRYLIC ACID                   43407     188     79107    72.06
+PALMITIC ACID                  43408     189     57103   256.43
+ADIPIC ACID                    43409     190    124049   146.14
+HEXADECANOIC ACID              43410     191     57103   256.48
+METHYL FORMATE                 43430     192    107313    60.05
+METHYLACETATE                  43432     193     79209    74.08                                                   3.0
+ETHYL ACETATE                  43433     194    141786    88.10         3.0                                       1.0
+N-PROPYL ACETATE               43434     195    109604   102.15         4.0                                       1.0
+N-BUTYL ACETATE                43435     196    138227   116.16         5.0                                       1.0
+METHYL ACRYLATE                43437     197     96333    86.09
+ETHYL ACRYLATE                 43438     198    140885   100.11         1.0                     2.0
+BUTYL ACRYLATE                 43440     199    141322   128.17
+METHYL METHACRYLATE            43441     200     80626   100.13
+ISOPROPYL ACETATE              43444     201    108214   102.13         5.0
+ISOBUTYL ACETATE               43446     202    110190   116.16         6.0
+DIMETHYL FORMAMIDE             43450     203     68122    73.09                                                   3.0
+ISOBUTYL ISOBUTYRATE           43451     204    297858   144.21         6.0                     1.0
+CELLOSOLVE ACETATE             43452     205    111159   132.16         4.0                     1.0
+VINYL ACETATE                  43453     206    108054    86.09
+METHYL PALMITATE               43454     207    112390   270.46
+METHYL MYRISTATE               43455     208    124107   242.41
+METHYL STEARATE                43456     209    112618   298.52
+METHYLAL                       43457     210    109875    76.11
+SUBSTITUTED C9 ESTER (C12)     43458     211             218.24
+C5 ESTER                       43459     212             130.19
+METHYL C11 ESTER               43460     213             214.35
+METHYL C12 ESTER               43461     214             228.37
+METHYL C13 ESTER               43462     215             242.40
+METHYL C14 ESTER               43463     216             256.43
+METHYL C15 ESTER               43464     217             270.45
+METHYL C19 ESTER               43465     218             326.56
+METHYL C20 ESTER               43466     219             340.59
+C4 SUBSTITUTED CYCLOHEXANONE   43467     220             154.26
+ISOBUTYL ACRYLATE              43468     221    106638   128.19
+BUTOXYETHOXYETHANOL ACETATE    43469     222    124174   220.26
+METHYL DODECANOATE             43470     223    111820   214.35
+DIMETHYLBUTANEDIOATE           43471     224             118.00
+BUTOXYBUTENE                   43472     225             128.21
+ETHYLHEXANOATE                 43473     226             144.24
+METHYLMETHYLPROPENOATE         43474     227             100.13
+METHYLETHYLPENTANOATE          43475     228             144.22
+DIMETHYLHEXANEDIOATE           43476     229             174.20
+DIMETHYLPENTANEDIOATE          43477     230             160.17
+FORMALDEHYDE                   43502     231     50000    30.03                           1.0
+ACETALDEHYDE                   43503     232     75070    44.05                                 1.0
+PROPIONALDEHYDE                43504     233    123386    58.08         1.0                                                                           1.0
+ACROLEIN                       43505     234    107028    56.07   1.0                     1.0
+BUTYRALDEHYDE                  43510     235    123728    72.12         2.0                                                                           1.0
+ISOBUTYRALDEHYDE               43511     236     78842    72.11
+HEXANAL                        43512     237     66251   100.16
+GLYOXAL                        43513     238    107222    58.04
+METHYL GLYOXAL                 43514     239     78988    72.07
+CROTONALDEHYDE                 43515     240    123739    70.09
+TOTAL C2-C5 ALDEHYDES          43520     241              72.12
+ACETONE                        43551     242     67641    58.08                                                                                                               1.0
+METHYL ETHYL KETONE            43552     243     78933    72.10         3.0                                                                                                         1.0
+METHYL BUTYL KETONE            43559     244    591786   100.16         5.0                                                                                                         1.0
+METHYL ISOBUTYL KETONE         43560     245    108101   100.16         5.0                                                                                                         1.0
+CYCLOHEXANONE                  43561     246    108941    98.15
+METHYL AMYL KETONE             43562     247    110430   114.21         6.0                                                                                                         1.0
+2-METHYL-3-HEXANONE            43563     248   7379126   114.19
+DIMETHYLCYCLOBUTANONE          43565     249              98.14
+TRIMETHYLCYCLOPENTANONE        43566     250             126.20
+TETRAMETHYLPENTANONE           43567     251             142.24
+NONENONE                       43568     252             140.22
+METHOXYMETHYLBUTANONE          43569     253             116.00
+ALKENE KETONE                  43570     254              72.10
+ETHYLENE OXIDE                 43601     255     75218    44.05         1.0                                       1.0
+PROPYLENE OXIDE                43602     256     75569    58.08         2.0                                       1.0
+MALEIC ANHYDRIDE               43603     257    108316    98.06
+ACETIC ANHYDRIDE               43604     258    108247   102.09
+OXYGENATES                     43650     259              86.00
+ACRYLONITRILE                  43704     260    107131    53.06   1.0   1.0
+ETHYLAMINE                     43721     261     75057    45.09         1.0                                       1.0
+TRIMETHYLAMINE                 43740     262     75503    59.11         3.0
+HEXAMETHYLENEDIAMINE           43776     263    124094   116.20
+ETHANOLAMINE                   43777     264    141435    61.08
+ETHYLENEAMINES                 43778     265              45.08
+CAPROLACTAM                    43779     266    105602   113.16
+DIMETHYL ALKYL AMINES          43780     267              59.11
+METHYL CHLORIDE                43801     268     74873    50.49                                                   1.0
+DICHLOROMETHANE                43802     269     75092    84.94                                                   1.0
+CHLOROFORM                     43803     270     67663   119.39                                                   1.0
+CARBON TETRACHLORIDE           43804     271     56235   153.84                                                   1.0
+METHYLENE BROMIDE              43805     272     74953   173.85                                                   1.0
+TRICHLOROFLUOROMETHANE         43811     273     75694   137.38                                                   1.0
+ETHYL CHLORIDE                 43812     274     75003    64.52                                                   2.0
+1,1,1-TRICHLOROETHANE          43814     275     71556   133.42                                                   2.0
+ETHYLENE DICHLORIDE            43815     276    107062    99.00                                       1.0
+PERCHLOROETHYLENE              43817     277    127184   165.83                                                   2.0
+1,1,2-TRICHLOROETHANE          43820     278     79005   133.42                                                   2.0
+TRICHLOROTRIFLUOROETHANE       43821     279     76131   187.38                                                   2.0
+TRIMETHYLFLUOROSILANE          43822     280              92.00                                                   3.0
+DICHLORODIFLUOROMETHANE        43823     281     75718   120.91                                                   1.0
+TRICHLOROETHYLENE              43824     282     79016   131.40                                       1.0
+1-CHLOROBUTANE                 43835     283     78864    92.57
+3-(CHLOROMETHYL)-HEPTANE       43836     284             148.68
+ETHYLENE DIBROMIDE             43837     285    106934   187.88
+PROPYLENE DICHLORIDE           43838     286  26638197   112.99
+TETRAFLUOROMETHANE             43839     287     75730    88.01
+CHLORODIFLUOROMETHANE          43840     288     75456    86.47
+DICHLOROTETRAFLUORETHANE       43841     289     76142   170.92
+CHLOROPENTAFLUOROETHANE        43842     290     76153   154.47
+HEXAFLUOROETHANE               43843     291     76164   138.01
+TRIFLUOROMETHANE               43844     292     75467    70.01
+CHLOROTRIFLUOROMETHANE         43845     293     75729   104.46
+VINYL CHLORIDE                 43860     294     75014    62.50                                       1.0
+CHLOROPRENE                    43862     295    126998    88.54
+EPICHLOROHYDRIN                43863     296    106898    92.53
+ETHYL MERCAPTAN                43902     297     75081    62.13
+2-ME-PROPANE                   43910     298     75285    58.10
+2-METHYL-BUTANE                43911     299     78784    72.20
+2,2,4-TRIME-PENTANE            43912     300    540841   114.20
+CARBONYL SULFIDE               43933     301    433581    60.08
+CARBON SULFIDE                 43934     302     75150    76.13
+OCTAMETHYLCYCLOTETRASILOXANE   43950     303    556672   296.62
+SILOXANE                       43951     304              76.08
+TETRAMETHYLSILANE              43952     305     75763    88.23
+NAPHTHA                        45101     306   8030306   114.00         8.0
+ISOMERS OF XYLENE              45102     307   1330207   106.16                     1.0
+ISOMERS OF ETHYLTOLUENE        45104     308             120.19         1.0         1.0
+ISOMERS OF BUTYLBENZENE        45105     309             134.22         3.0   1.0
+ISOMERS OF DIETHYLBENZENE      45106     310             134.21         2.0         1.0
+TRIMETHYLBENZENE               45107     311  25551137   120.19         1.0         1.0
+ISOMERS OF PROPYLBENZENE       45108     312             120.19         2.0   1.0
+C3/C4/C5 ALKYLBENZENES         45109     313             134.21
+C10 AROMATIC                   45110     314             134.22
+C10H12                         45111     315             132.22
+ISOMERS OF C10H10              45112     316             130.19
+C11H10                         45113     317             142.20
+BENZENE                        45201     318     71432    78.11                                                                                                   1.0
+TOLUENE                        45202     319    108883    92.13               1.0
+ETHYLBENZENE                   45203     320    100414   106.16         1.0   1.0
+O-XYLENE                       45204     321     95476   106.16                     1.0
+M-XYLENE                       45205     322    108383   106.16                     1.0
+P-XYLENE                       45206     323    106423   106.16                     1.0
+1,3,5-TRIMETHYLBENZENE         45207     324    108678   120.19         1.0         1.0
+1,2,4-TRIMETHYLBENZENE         45208     325     95636   120.19         1.0         1.0
+N-PROPYLBENZENE                45209     326    103651   120.19         2.0   1.0
+CUMENE (ISOPROPYL BENZENE)     45210     327     98828   120.20
+O-ETHYLTOLUENE                 45211     328    611143   120.19         1.0         1.0
+M-ETHYLTOLUENE                 45212     329    620144   120.19         1.0         1.0
+P-ETHYLTOLUENE                 45213     330    622968   120.20
+TERT-BUTYLBENZENE              45215     331     98066   134.21         1.0   1.0                                 3.0
+S-BUTYLBENZENE                 45216     332    135988   134.21         3.0   1.0
+1,2 DIETHYLBENZENE             45217     333    135013   134.22
+M-DIETHYLBENZENE               45218     334    141935   134.22
+STYRENE                        45220     335    100425   104.14               1.0         1.0
+METHYL STYRENE                 45221     336  25013154   118.19         1.0   1.0         1.0
+1,2,3-TRIMETHYLBENZENE         45225     337    526738   120.19         1.0         1.0
+BIPHENYL                       45226     338     92524   154.21
+METHYL BIPHENYL                45227     339             168.24
+ETHYL STYRENE                  45228     340             132.21
+DIVINYL BENZENE                45229     341   1321740   130.20
+DI(ETHYLPHENYL) ETHANE         45230     342             238.37
+PENTYL BENZENE                 45231     343             148.25
+DIPHENYL ETHANE                45232     344    103297   182.27
+ETHYL-PHENYL-PHENYL-ETHANE     45233     345             210.32
+BUTYL BENZENE                  45235     346    104518   134.21
+DIISOPROPYL BENZENE            45236     347             162.28
+1,2,3,4 TETRAMETHYLBENZENE     45237     348    488233   134.22
+ETHYLTOLUENE                   45238     349             120.19
+4-PHENYL-1-BUTENE              45241     350    768569   132.20
+T-1-PHENYLBUTENE               45242     351             132.20
+ETHYLDIMETHYLBENZENE           45243     352             134.22
+TETRAMETHYLBENZENE             45244     353             134.22
+C5-ALKYLBENZENES               45245     354             148.24
+C5-ALKYLBENZENES (UNSAT.)      45246     355             146.25
+C6-ALKYLBENZENE                45247     356             162.27
+C4-ALKYLSTYRENES               45248     357             160.26
+C7-ALKYLBENZENE                45249     358             176.30
+C3-ALKYLSTYRENE                45250     359             146.23
+PHENOL                         45300     360    108952    94.11                                 1.0               4.0
+NONYLPHENOL                    45301     361  25154523   220.36
+ETHYLDIMETHYLPHENOL            45302     362             150.22
+C4-ALKYLPHENOLS                45303     363             150.22
+C5-ALKYLPHENOLS                45304     364             164.25
+C8 PHENOLS                     45310     365             122.16
+C9 PHENOLS                     45311     366             136.19
+DIMETHYLBENZYLALCOHOL          45320     367             136.19
+BIPHENYLOL                     45330     368     90437   170.22
+XYLENE BASE ACIDS              45401     369             230.00                     1.0
+BENZOIC ACID                   45402     370     65850   122.13               1.0
+TEREPHTHALIC ACID              45403     371    100210   166.14
+DIMETHYLETHYLBENZOIC ACID      45404     372             178.23
+DIMETHYL TEREPHTHALATE         45450     373    120616   194.19
+DIMETHYL PHTHALATE             45451     374    131113   194.19
+DIBUTYL PHTHALATE              45452     375     84742   278.35
+DIPROPYL PHTHALATE             45454     376    131168   250.30
+BUTYL BENZOATE                 45455     377    136607   178.23
+BUTYLISOPROPYLPHTHALATE        45456     378             264.32
+DI-C8 ALKYL PHTHALATE          45470     379             390.56
+BUTYLBENZYLPHTHALATE           45477     380     85687   312.39
+BENZALDEHYDE                   45501     381    100527   106.13
+P-TOLUALDEHYDE                 45502     382    104870   120.16
+2-FURFURAL                     45503     383     98011    96.09
+METHYLACETOPHENONE             45550     384             134.17
+PHTHALIC ANHYDRIDE             45601     385     85449   148.12
+FURFURYL ALCOHOL               45604     386     98000    98.10
+CRESOL                         45605     387   1319773   108.14
+C11H14O                        45610     388             162.23
+ANILINE                        45701     389     62533    93.13
+NITROBENZENE                   45702     390     98953   123.11
+2,2 DICHLORONITROANILINE       45703     391             207.02
+BROMODINITROANILINE            45704     392   1817738   262.03
+BROMODINITROBENZENE            45705     393             247.02
+N-PHENYLANILINE                45706     394             169.24
+METHYLENE(B)4-PHENYLISOCYANA   45730     395    101688   250.27
+TOLUENE DIISOCYANATE           45731     396     58849   174.17
+TOLUENEISOCYANIDE              45732     397             117.15
+TOTAL AROMATIC AMINES          45740     398              93.13
+PIPERYLENE                     45750     399    504609    68.12
+CHLOROBENZENE                  45801     400    108907   112.56         5.0                                       1.0
+O-DICHLOROBENZENE              45805     401     95501   147.01
+M-DICHLOROBENZENE              45806     402    541731   147.01
+P-DICHLOROBENZENE              45807     403    106467   147.01         5.0                                       1.0
+DICHLOROBENZENES               45808     404   2531226   147.01
+BENZYL CHLORIDE                45810     405    100447   126.59
+TRICHLOROBENZENES              45830     406             181.45
+TETRACHLOROBENZENES            45831     407             215.90
+ANTHRAQUINONE                  46102     408     84651   208.23
+AMINOANTHRAQUINONE             46103     409     82451   223.23
+4,4-METHYLENE DIANILINE        46111     410    101779   198.17
+PHENYL ISOCYANATE              46112     411    103719   119.13
+4-METHYLANILINE                46114     412    100618   107.17
+DIMETHYLNAPHTHYRIDINE          46115     413             158.20
+OCTAHYDROINDENES               46202     414             244.00
+METHOXYNAPHTHALENE             46203     415             158.20
+DIHYDROXYNAPTHALENEDIONE       46204     416             160.17
+CREOSOTE                       46210     417   8001589   130.19
+TETRAMETHYLTHIOUREA            46601     418   2782914   132.25
+BENZOTHIAZOLE                  46602     419     95169   135.19
+NAPTHALENE                     46701     420     91203   128.17
+METHYL NAPHTHALENES            46702     421             142.20
+DIMETHYL NAPTHALENE            46703     422  28804888   156.23
+PHENYLNAPHTHALENES             46704     423             204.27
+ACENAPHTHYLENE                 46705     424    208968   152.20
+ACENAPHTHENE                   46706     425     83329   154.21
+FLUORENE                       46707     426     86737   166.22
+PHENANTHRENE                   46708     427     85018   178.23
+ANTHRACENE                     46709     428    120127   178.23
+FLUORANTHENE                   46710     429    206440   202.26
+C2 ALKYL INDAN                 46711     430             146.23
+INDENE                         46712     431     95136   116.16
+PYRENE                         46713     432    129000   202.26
+BENZO(G,H,I) FLUORANTHENE      46714     433             252.32
+CHRYSENE                       46715     434    218019   228.29
+BENZO (A) ANTHRACENE           46716     435     56553   228.30
+BENZO (B) FLUORANTHENE         46717     436    205992   252.32
+BENZO (K) FLUORANTHENE         46718     437    207089   252.32
+BENZO (A) PYRENE               46719     438     50328   252.32
+INDENO(1,2,3-CD) PYRENE        46720     439    193395   276.34
+BENZO (G,H,I) PERYLENE         46721     440    191242   276.34
+DIBENZO(A,H) ANTHRACENE        46722     441     53703   278.35
+PERYLENE                       46723     442    198550   252.32
+BENZO (E) PYRENE               46724     443    192972   252.32
+ANTHANTHRENE                   46725     444    191264   276.34
+CORONENE                       46726     445    191071   300.36
+METHYL-ANTHRACENES             46727     446             192.26
+METHYL-PHENANTHRENES           46728     447             192.26
+C2-ALKYL-ANTHRACENES           46729     448             158.24
+C2-ALKYL-PHENANTHRENES         46730     449             206.28
+CYCLOPENTA-ANTHRACENES         46731     450             247.36
+CYCLOPENTA-PHENANTHRENES       46732     451             190.25
+METHYL-FLUORANTHENES           46733     452             216.29
+CYCLOPENTA(C,D)PYRENE          46734     453  27208373   226.28
+BENZO(C)PHENANTHRENE           46735     454    195197   228.30
+METHYL-BENZANTHRACENES         46736     455             242.33
+METHYL-BENZPHENANTHRENES       46737     456             242.33
+METHYL-CHRYSENES               46738     457             242.33
+C2-ALKYL-BENZANTHRACENES       46739     458             256.35
+C2-ALKYL-BENZOPHENANTHRENES    46740     459             230.31
+C2-ALKYL-CHRYSENES             46741     460             256.34
+BENZOPYRENES                   46742     461             252.32
+DIBENZANTHRACENES              46743     462             278.35
+DIBENZPHENANTHRENES            46744     463             278.36
+DIBENZOPYRENES                 46745     464             302.38
+C2-ALKYLNAPHTHALENE            46746     465             156.23
+METHYLINDANS                   46747     466             132.21
+METHYLDECALINS                 46748     467             152.28
+METHYLDIHYDRONAPHTHALENE       46749     468             144.22
+DIMETHYLINDANS                 46750     469             146.23
+DIHYDRONAPTHALENE              46751     470             130.19
+DIMETHYLINDENE                 46752     471             144.22
+DECALINS                       46753     472     91178   138.25
+ETHYLINDAN                     46754     473             146.23
+TRIMETHYLINDAN                 46755     474             160.26
+DODECENE                       90001     475    112414   168.32
+2,3,5-TRIMETHYLHEXANE          90002     476             128.25
+2,4 DIMETHYLHEPTANE            90003     477             128.26
+3,5 DIMETHYLHEPTANE            90004     478             128.26
+2,5 DIMETHYLHEPTANE            90005     479             128.26
+2,3 DIMETHYLHEPTANE            90006     480             128.26
+4-METHYL-1-PENTENE             90007     481    691372    84.16
+2-METHYLOCTANE                 90008     482             128.26
+2,4,5-TRIMETHYLHEPTANE         90009     483             142.29
+M-XYLENE AND P-XYLENE          90010     484             106.16
+METHYLALLENE                   90011     485              54.09
+C-2-OCTENE                     90013     486             112.21
+1-DECENE                       90014     487    872059   140.27
+3-METHYLOCTANE                 90015     488             128.26
+4-METHYLOCTANE                 90016     489             128.26
+METHYLCYCLOOCTANE              90017     490             127.25
+C6H18O3SI3                     90019     491             222.47
+C8H24O4SI4                     90020     492             296.60
+METHYLPROPANE                  90021     493              58.12
+METHYLPROPENE                  90022     494              56.10
+METHYLBUTENE                   90023     495              70.13
+METHYLBUTADIENE                90024     496              68.12
+METHYLPENTENES                 90025     497              84.16
+METHYLPENTANE                  90026     498              86.17
+METHYLCYCLOPENTADIENE          90027     499              80.14
+METHYLHEXANE                   90028     500             100.20
+METHYLHEXENES                  90029     501              98.18
+HEXADECANE                     90030     502    544763   226.45
+N-HEPTADECANE                  90031     503    629787   240.46
+1-UNDECENE                     90032     504    821954   154.30
+CYCLOPENTYLCYCLOPENTANE        90033     505             138.25
+T-2-NONENE                     90034     506   6434782   126.24
+N-PENTENE                      90035     507  25377724    70.14
+PENTYNE                        90036     508              68.12
+HEXYNE                         90037     509              82.15
+CIS-1,4 DIMETHYLCYCLOHEXANE    90038     510    624293   112.22
+METHYLHEXADIENE                90039     511              96.17
+3,3 DIMETHYLPENTANE            90040     512    562492   100.20
+METHYLCYCLOHEXADIENE           90041     513   4313579    94.15
+T-3-HEXENE                     90042     514  13269528    84.16
+METHYLHEXANAL                  90043     515             114.19
+METHYLHEPTYNE                  90044     516             110.20
+METHYLHEPTANE                  90045     517             114.23
+METHYLCYCLOHEXENE              90046     518              96.17
+METHYLNONANE                   90047     519             142.28
+METHYLDECANES                  90048     520             156.32
+METHYLUNDECANE                 90049     521             170.34
+CAMPHENE                       90050     522   5794036   136.24
+MYRCENE                        90051     523    123353   136.24
+B-PHELLANDRENE                 90052     524             136.24
+D-LIMONENE                     90053     525   5989275   136.24
+PENTENYNE                      90054     526              66.10
+PENTYLCYCLOHEXANE              90055     527             154.29
+HEXENE                         90056     528              84.16
+1-HEPTENE                      90057     529    592767    98.18
+HEXADIENAL                     90058     530    142836    96.14
+HEPTADIENAL                    90059     531   5910859   110.17
+DIMETHYLBUTANE                 90060     532     79298    86.18
+DIMETHYLBUTENE                 90061     533              84.16
+DIMETHYLPENTANE                90062     534             100.20
+DIMETHYLPENTENE                90063     535              98.19
+DIMETHYLCYCLOPENTANE           90064     536              98.19
+DIMETHYLCYCLOPENTENES          90065     537              96.17
+NONADIENE                      90066     538             124.23
+DIMETHYLHEXANES                90067     539             114.23
+DIMETHYLHEXADIENE              90068     540             110.20
+DIMETHYLETHYLCYCLOHEXANE       90069     541             140.26
+DIMETHYLOCTANES                90070     542             142.28
+DIMETHYLUNDECANE               90071     543             184.36
+METHYLPROPYLCYCLOHEXANES       90072     544             140.27
+METHYLISOPROPYLCYCLOHEXANE     90073     545             140.27
+DIMETHYLDECANE                 90074     546             170.34
+ETHYLOCTENE                    90075     547             140.27
+DIMETHYLNONANES                90076     548             156.31
+ETHYLOCTANE                    90077     549             142.29
+ETHYLPENTENE                   90078     550              98.19
+ETHYLCYCLOPENTENE              90079     551              96.17
+ETHYLMETHYLCYCLOPENTANE        90080     552             112.21
+ETHYLHEXANE                    90081     553             114.23
+ETHYLMETHYLHEXANE              90082     554             128.26
+ETHYLMETHYLCYCLOHEXANES        90083     555             126.24
+ETHYLHEPTANE                   90084     556             128.26
+ETHYLMETHYLOCTANE              90085     557             156.31
+ETHYLBICYCLOHEPTANE            90086     558             223.42
+ETHYLDIMETHYLPENTANE           90087     559             128.26
+ETHYLDIMETHYLCYCLOHEXANE       90089     560             140.27
+ETHYLPROPYLCYCLOHEXANES        90090     561             154.29
+TETRAMETHYLCYCLOBUTENE         90091     562             110.19
+TRIMETHYLPENTANE               90092     563             114.22
+TRIMETHYLPENTADIENE            90093     564             110.20
+TRIMETHYLHEPTANES              90094     565             142.29
+TRIMETHYLHEXENE                90095     566             126.24
+TRIMETHYLOCTANES               90096     567             156.31
+TRIMETHYLDECANE                90097     568             184.36
+TETRAMETHYLCYCLOPENTANE        90098     569             126.24
+OCTATRIENE                     90099     570             108.19
+NONENE                         90100     571    124118   126.24
+BUTYLCYCLOHEXANE               90101     572   1678939   140.27
+METHYLPROPYLNONANE             90102     573             184.36
+PENTADIENE                     90103     574              68.13
+METHYLOCTANES                  90104     575             128.26
+PROPENYLCYCLOHEXANE            90105     576             124.33
+METHYLNONENE                   90106     577             140.26
+METHYLDECENE                   90107     578             154.29
+METHYLDODECANE                 90108     579             184.36
+PROPYLHEPTENES                 90109     580             140.27
+DIETHYLMETHYLCYCLOHEXANES      90110     581             111.20
+ISOPROPYLMETHYLCYCLOHEXANE     90111     582             140.27
+DIMETHYLOCTYNE                 90112     583             138.25
+PENTYLIDENECYCLOHEXANE         90113     584             152.00
+DIMETHYLBUTYLCYCLOHEXANE       90114     585             168.32
+TRIMETHYLHEXANES               90115     586             128.26
+ISOPROPYLCYCLOPENTANE          90116     587             113.22
+LIMONENE                       90117     588   5989275   136.24
+OCTAHYDROPENTALENE             90118     589             225.20
+METHYLINDENE                   90119     590             130.19
+PROPYLCYCLOHEXANE              90120     591             126.24
+METHYLETHYLHEPTANE             90121     592             142.22
+TETRAMETHYLHEXANE              90122     593             142.28
+TRIMETHYLNONENE                90123     594             168.32
+DIMETHYLOCTENES                90124     595             140.27
+HENEICOSANE                    90125     596    629947   296.59
+EICOSANE                       90126     597    112958   282.56
+NONADECANE                     90127     598             268.53
+ISOPROPYLCYCLOHEXANE           90128     599             126.25
+ETHYLDIMETHYLOCTANE            90129     600             172.35
+CARYOPHYLLENE                  90130     601     87445   204.36
+HEXAMETHYLCYCLOTRISILOXANE     91001     602    541059   222.47
+2-METHYL NAPHTHALENE           91002     603     91576   142.20
+1-METHYL NAPHTHALENE           91003     604     90120   142.20
+METHYLBENZALDEHYDE             91004     605   1334787   120.12
+1,2-DIMETHYL NAPHTHALENE       91005     606    573988   156.23
+2,6-DIMETHYL NAPHTHALENE       91006     607    581420   156.23
+C16-BRANCHED ALKANE            91007     608             226.44
+1,4&2,3-DIMETHYL NAPHTHALENE   91008     609             156.23
+C5-BENZENE                     91009     610             148.25
+HEXENAL                        91010     611     56291    98.15
+C5-ENE                         91011     612              70.13
+C5-CYCLOHEXANE                 91012     613             170.32
+C13-BRANCHED ALKANE            91013     614             184.36
+C14-BRANCHED ALKANE            91014     615             198.38
+C15-BRANCHED ALKANE            91015     616             212.41
+C4-BENZENE                     91016     617             134.22
+2,2,5-TRIMETHYLHEXANE          98033     618             128.26         9.0
+T-2-HEXENE                     98034     619  40504557    84.16         2.0                     2.0
+C-2-HEXENE                     98035     620    592438    84.16         2.0                     2.0
+2-METHYL-1-PENTENE             98040     621    763291    84.16         5.0               1.0
+3-HEPTENE                      98041     622              98.19         3.0                     2.0
+INDANE                         98044     623    496117   118.18         2.0   1.0
+2,4,4-TRIMETHYL-1-PENTENE      98054     624    107391   112.22   1.0   6.0
+ISOVALERALDEHYDE               98056     625    590863    86.14         3.0                                                                           1.0
+ETHYLCYCLOPENTANE              98057     626   1640897    98.19         7.0
+TRIMETHYLCYCLOPENTANE          98058     627  15890401   112.16         8.0
+DIMETHYLCYCLOHEXANE            98059     628             112.24         8.0
+TRIMETHYLCYCLOHEXANES          98060     629   3073663   126.27         9.0
+DIETHYLCYCLOHEXANE             98062     630             140.27        10.0
+N-PENTYLCYCLOHEXANE            98063     631             154.30        11.0
+ETHYLHEPTENE                   98082     632             126.24   1.0   7.0
+TRIMETHYLDECENE                98083     633             182.35   1.0  11.0
+METHYLHEPTENE                  98090     634             112.22         4.0                                                               1.0
+DIMETHYLHEPTANES               98091     635             128.26         9.0
+ETHYLISOPROPYL ETHER           98106     636              88.15         3.0                     1.0
+C-1 COMPOUNDS                  99101     637              16.04
+C-2 COMPOUNDS                  99102     638              28.55
+C-3 COMPOUNDS                  99103     639              42.08
+C-4 COMPOUNDS                  99104     640              57.08
+C-5 COMPOUNDS                  99105     641              71.00
+C-6 COMPOUNDS                  99106     642              79.12
+C-7 COMPOUNDS                  99107     643              93.18
+C-8 COMPOUNDS                  99108     644             112.00
+C-9 COMPOUNDS                  99109     645             126.00
+C-10 COMPOUNDS                 99110     646             140.00
+C-11 COMPOUNDS                 99111     647             154.00
+C-12 COMPOUNDS                 99112     648             168.00
+C-13 COMPOUNDS                 99113     649             182.00
+C-14 COMPOUNDS                 99114     650             196.00
+C-15 COMPOUNDS                 99115     651             210.00
+C-16 COMPOUNDS                 99116     652             224.00
+C-17 COMPOUNDS                 99117     653             238.00
+C-18 COMPOUNDS                 99118     654             252.00
+C-19 COMPOUNDS                 99119     655             266.00
+C-20 COMPOUNDS                 99120     656             280.00
+C-21 COMPOUNDS                 99121     657             294.00
+C-22 COMPOUNDS                 99122     658             308.00
+C-23 COMPOUNDS                 99123     659             322.00
+C-24 COMPOUNDS                 99124     660             336.00
+C-25 COMPOUNDS                 99125     661             350.00
+C-26 COMPOUNDS                 99126     662             364.00
+C-27 COMPOUNDS                 99127     663             378.00
+C-28 COMPOUNDS                 99128     664             392.00
+C-29 COMPOUNDS                 99129     665             406.00
+C-30 COMPOUNDS                 99130     666             420.00
+C-31 COMPOUNDS                 99131     667             434.00
+C-32 COMPOUNDS                 99132     668             448.00
+C-33 COMPOUNDS                 99133     669             462.00
+C-34 COMPOUNDS                 99134     670             476.00
+C-35 COMPOUNDS                 99135     671             490.00
+C-36 COMPOUNDS                 99136     672             504.00
+C-37 COMPOUNDS                 99137     673             518.00
+C-38 COMPOUNDS                 99138     674             532.00
+C-39 COMPOUNDS                 99139     675             546.00
+C-40 COMPOUNDS                 99140     676             560.00
+C-41 COMPOUNDS                 99141     677             574.00
+C-42 COMPOUNDS                 99142     678             588.00
+C-43 COMPOUNDS                 99143     679             602.00
+2,3 DIMETHYLOCTANE             99908     680             142.28
+2,6 DIMETHYLOCTANE             99909     681             167.31
+2,4 DIMETHYLOCTANE             99910     682   4032944   142.29
+3,4 DIMETHYLOCTANE             99911     683             142.29
+1-METHYL-3-ETHYLBENZENE        99912     684             120.19
+ISOBUTYLBENZENE                99915     685    538932   134.22
+1-METHYL-3N-PROPYLBENZENE      99916     687             134.22
+1-METHYL-3-ISOPROPYLBENZENE    99917     688             134.22
+2-METHYLDECANE                 99918     689             156.32
+DENATURANT                     99933     690              32.04
+UNIDENTIFIED                   99999     691              86.00
+1,2-DIMETHYL-4-ETHYLBENZENE              692    934805     0.00
+1,3-DIMETHYL-2-ETHYLBENZENE              693   2870044     0.00
+1,3-DIMETHYL-4-ETHYLBENZENE              694    874419     0.00
+1,4-DIMETHYL-2-ETHYLBENZENE              695   1758889     0.00
+1-METHYL-2-PROPYLBENZENE                 696   1074175     0.00
+1-METHYL-3-PROPYLBENZENE                 697   1074437     0.00
+C6H8 ISOMER                              698               0.00
+ETBE                                     699    637923     0.00
+ETBE                                     700    637923     0.00
+ISOBUTYLBENZENE                          686    538932   134.22
+OTHER                                    701               0.00
+UNC PEAKS TO CBM ALDEHYDES               702               0.00
+UNC PEAKS TO CBM NON REACT               703               0.00
+UNC PEAKS TO CBM OLEFINS                 704               0.00
+UNC PEAKS TO CBM PARAFFINS               705               0.00
+UNC PEAKS TO CBM TOLUENE                 706               0.00
+UNC PEAKS TO CBM XYLENE                  707               0.00
+UNKNOWN #1                               708               0.00
+UNKNOWN #10                              709               0.00
+UNKNOWN #11                              710               0.00
+UNKNOWN #12                              711               0.00
+UNKNOWN #13                              712               0.00
+UNKNOWN #14                              713               0.00
+UNKNOWN #15                              714               0.00
+UNKNOWN #16                              715               0.00
+UNKNOWN #17                              716               0.00
+UNKNOWN #18                              717               0.00
+UNKNOWN #19                              718               0.00
+UNKNOWN #2                               719               0.00
+UNKNOWN #20                              720               0.00
+UNKNOWN #21                              721               0.00
+UNKNOWN #22                              722               0.00
+UNKNOWN #23                              723               0.00
+UNKNOWN #24                              724               0.00
+UNKNOWN #25                              725               0.00
+UNKNOWN #26                              726               0.00
+UNKNOWN #3                               727               0.00
+UNKNOWN #4                               728               0.00
+UNKNOWN #5                               729               0.00
+UNKNOWN #6                               730               0.00
+UNKNOWN #7                               731               0.00
+UNKNOWN #8                               732               0.00
+UNKNOWN #9                               733               0.00
+VOC                                      734    106990    54.09   2.0
