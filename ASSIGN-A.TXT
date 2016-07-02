@@ -1,0 +1,159 @@
+1       0195 FC  * ASSUME                                住宅燃燒排放-液化石油氣
+2       1185 FE                                          住宅燃燒排放-煤
+5       0195 FC                                          住宅燃燒排放-天然氣
+7       0003 FC  * ASSUME                                商業燃燒排放
+7     A 0003 FC  * ASSUME                                商業燃燒排放-液化石油氣
+7     B 0003 FC  * ASSUME                                餐飲業油煙排放
+7     C 0003 FC  * ASSUME                                餐飲業油煙排放-西式餐飲  !!added by chuang
+7     D 0003 FC  * ASSUME                                餐飲業油煙排放-日式餐飲  !!added by chuang
+7     E 0003 FC  * ASSUME                                餐飲業油煙排放-速食餐飲  !!added by chuang
+7     F 0003 FC  * ASSUME                                餐飲業油煙排放-複合式餐飲  !!added by chuang
+7     G 0003 FC  * ASSUME                                餐飲業油煙排放-其他餐飲  !!added by chuang
+8       1178 FE                                          商業燃燒排放-煤
+9       0002 FC                                          商業燃燒排放-蒸餾油
+9     A 0002 FC  * ASSUME                                商業燃燒排放-柴油
+9     B 0002 FC  * ASSUME                                商業燃燒排放-煤油
+10      0001 FC                                          商業燃燒排放-重油
+11      0003 FC                                          商業燃燒排放-天然氣
+13      0003 FC  * ASSUME                                工業燃燒排放-液化石油氣
+14      1185 FD                                          工業燃燒排放-煤
+16      0002 FC                                          工業燃燒排放-蒸餾油
+16    A 0002 FC  * ASSUME                                工業燃燒排放-柴油
+16    B 0002 FC  * ASSUME                                工業燃燒排放-煤油
+17      0001 FC                                          工業燃燒排放-重油
+18      0003 FC                                          工業燃燒排放-天然氣
+21      0122 FE                                          焚化爐
+24      0121 FE                                          垃圾露天燃燒排放
+24    A 0121 FE  * ASSUME                                垃圾露天燃燒排放-垃圾場
+24    B 0121 FE  * ASSUME                                垃圾露天燃燒排放-任意場所
+24    D 0121 FC  * ASSUME                                垃圾露天燃燒排放-事業廢棄物
+25      0121 FC                                          廢五金燃燒排放
+39      1186 FC                                          農業機械汽油燃燒排放
+39    A 1186 FC  * ASSUME                                農業機械汽油燃燒排放-曳引機
+39    B 1186 FC  * ASSUME                                農業機械汽油燃燒排放-非曳引機
+43      1201 FD  * ASSUME AS 44                          農業機械柴油燃燒排放
+43    A 1201 FD  * ASSUME                                農業機械柴油燃燒排放-曳引機
+43    B 1201 FD  * ASSUME                                農業機械柴油燃燒排放-非曳引機
+44      1201 FD                                          施工機具排放
+44    A 1201 FD  * ASSUME                                施工機具排放-柴油
+44    B 1186 FD  * ASSUME                                施工機具排放-汽油
+45      1097 FB                                          鐵路機關車柴油燃燒排放
+48      1098 FB                                          航空器燃燒排放
+50      1201 FD                                          船舶燃燒-柴油
+51      0001 FC                                          船舶燃燒-重油
+51    A 1201 FC                                          船舶燃燒-重油(進港切換成A油近似柴油) !!added by chuang
+51    B 1201 FC                                          船舶燃燒-柴油發電機 !!added by chuang
+60      0307 FC                                          森林火災燃燒排放
+62      0307 FD                                          農業燃燒排放-旱田
+62    A 0307 FD                                          農業燃燒排放-旱田  !!added by chuang
+62    B 0307 FD                                          農業燃燒排放-椰子  !!added by chuang
+62    C 0307 FD                                          農業燃燒排放-荔枝  !!added by chuang
+62    D 0307 FD                                          農業燃燒排放-棗  !!added by chuang
+62    E 0307 FD                                          農業燃燒排放-荔枝  !!added by chuang
+62    F 0307 FD                                          農業燃燒排放-蓮霧  !!added by chuang
+62    G 0307 FD                                          農業燃燒排放-檳榔  !!added by chuang
+62    H 0307 FD                                          農業燃燒排放-龍眼  !!added by chuang
+62    I 0307 FD                                          農業燃燒排放-柑橘類  !!added by chuang
+63      0307 FD  * ASSUME AS 62                          農業燃燒排放-水田
+63    A 0307 FD  * ASSUME AS 62                          農業燃燒排放-一期作稻田  !!added by chuang
+63    B 0307 FD  * ASSUME AS 62                          農業燃燒排放-二期作稻田  !!added by chuang
+64      0307 FC                                          建物火災燃燒排放
+110     0000 FE  * ASSUME                                車輛行駛揚塵
+110   A 0000 FE  * ASSUME                                車輛行駛揚塵（鋪面道路-高速公路）
+110   B 0000 FE  * ASSUME                                車輛行駛揚塵（鋪面道路-省市道）
+110   C 0000 FE  * ASSUME                                車輛行駛揚塵（鋪面道路-縣道）
+110   D 0000 FE  * ASSUME                                車輛行駛揚塵（鋪面道路-鄉道）
+110   E 0000 FE  * ASSUME                                住宅建築外帶水泥
+110   F 0000 FE  * ASSUME                                商業建築外帶水泥
+110   G 0000 FE  * ASSUME                                道路修築外帶水泥
+110   H 0000 FE  * ASSUME                                道路修築外帶水泥
+110   I 0000 FE  * ASSUME                                道路修築外帶水泥
+110   J 0000 FE  * ASSUME                                道路修築外帶水泥
+110   K 0000 FE  * ASSUME                                道路修築外帶水泥
+111     0000 FE  ( SPECIATE > 55 )                       車輛行駛揚塵（未鋪面道路）
+111   A 0000 FE                                          車輛行駛揚塵（未鋪面道路(砂路)-省道）
+111   B 0000 FE                                          車輛行駛揚塵（未鋪面道路(砂路)-縣道）
+111   C 0000 FE                                          車輛行駛揚塵（未鋪面道路(砂路)-鄉道)
+111   D 0000 FE                                          車輛行駛揚塵（未鋪面道路(土路)-省道）
+111   E 0000 FE                                          車輛行駛揚塵（未鋪面道路(土路)-縣道）
+111   F 0000 FE                                          車輛行駛揚塵（未鋪面道路(土路)-鄉道)
+112     0000 FE  ( SPECIATE > 59 )                       農業操作排放
+112   A 0000 FE                                          農耕整地排放
+112   B 0000 FE  ( SPECIATE > 57 )                       農田風蝕
+113     0000 FE  ( SPECIATE > 57 )                       道路修築排放
+113   A 0000 FE  ( SPECIATE > 57 )                       道路修築排放-二高
+113   B 0000 FE  ( SPECIATE > 57 )                       道路修築排放-高鐵
+113   C 0000 FE  ( SPECIATE > 57 )                       道路修築排放-西濱快速道路
+113   D 0000 FE  ( SPECIATE > 57 )                       道路修築排放-東西向快速道路
+113   E 0000 FE  ( SPECIATE > 57 )                       道路修築排放-台北捷運
+113   F 0000 FE  ( SPECIATE > 57 )                       道路修築排放-高雄捷運
+113   G 0000 FE  ( SPECIATE > 57 )                       道路修築排放-南宜高速道路
+113   H 0000 FE  ( SPECIATE > 57 )                       道路修築排放-一高汐止五股拓寬
+113   I 0000 FE  ( SPECIATE > 57 )                       道路修築排放-高雄快速道路
+113   J 0000 FE  ( SPECIATE > 57 )                       道路修築排放-澎湖道路拓寬
+114     0000 FE  ( SPECIATE > 57 )                       土木施工排放
+114   A 0000 FE  ( SPECIATE > 57 )                       建物興建排放
+114   B 0000 FE  ( SPECIATE > 57 )                       建物拆除排放
+114   C 0000 FE  ( SPECIATE > 57 )                       土木施工排放-高爾夫球場
+114   D 0000 FE  ( SPECIATE > 57 )                       土木施工排放-高爾夫球場
+114   E 0000 FE  ( SPECIATE > 57 )                       土木施工排放-彰濱工業區
+114   F 0000 FE  ( SPECIATE > 57 )                       土木施工排放-雜項開發
+114   G 0000 FE  ( SPECIATE > 57 )                       土木施工排放-雜項開發
+115     0000 FE  ( SPECIATE > 59 )                       礦場操作
+115   A 0000 FE  ( SPECIATE > 59 )                       礦場物料操作
+115   B 0000 FE  ( SPECIATE > 55 )                       礦場車輛行駛揚塵
+115   C 0000 FE  ( SPECIATE > 58 )                       礦場風蝕
+115   D 0000 FE  ( SPECIATE > 57 )                       和平水泥專業區
+116   A 0000 FE  ( SPECIATE > 57 )                       裸露地表風蝕-操場
+116   B 0000 FE  ( SPECIATE > 57 )                       裸露地表風蝕-海岸
+116   C 0000 FE  ( SPECIATE > 57 )                       裸露地表風蝕-河床
+116   D 0000 FE  ( SPECIATE > 57 )                       裸露地表風蝕-一般 !!added by chuang
+ BIO-C                                                   生物源排放-針葉樹林
+ BIO-H                                                   生物源排放-闊葉樹林
+ BIO-M                                                   生物源排放-闊針葉混合林
+ BIO-B                                                   生物源排放-竹林
+ BIO-P                                                   生物源排放-水田
+ BIO-D                                                   生物源排放-旱田
+ BIO-L                                                   生物源排放-草地
+54      1190 FB                                          車輛加油站逸散排放
+54    A 1190 FB                                          加油逸散損失-汽油
+54    B 1190 FB  * ASSUME                                貯存損失-汽油
+55      1190 FB  * ASSUME                                漁船加油站逸散排放
+55    A 1190 FB  * ASSUME                                海運裝載損失-甲漁
+55    B 1190 FB  * ASSUME                                海運裝載損失-乙漁
+56      1190 FB  * ASSUME                                鐵運及槽車逸散排放
+56    A 1190 FB  * ASSUME                                鐵運及槽車裝載損失-汽油
+56    B 1190 FB  * ASSUME                                鐵運及槽車裝載損失-航空燃油(JP-4)
+56    C 1190 FB  * ASSUME                                鐵運及槽車裝載損失-航空燃油(Jet Ker.)
+93    A 0197 FE  * ASSUME AS 94                          有機溶劑儲槽
+82      1016 FB                                          建築表面塗裝
+82    A 1016 FB                                          建築表面塗裝-油性塗料  !!added by chuang
+82    B 1016 FB                                          建築表面塗裝-油性塗料  !!added by chuang
+100     0202 TE  ( SPECIATE > 108)                       垃圾掩埋場逸散
+101     1007 TE  ( SPECIATE > 108)                       道路瀝青鋪設
+101   A 1007 TE  * ASSUME                                道路瀝青鋪設-油溶(RC,MC)
+101   B 1007 TE  * ASSUME                                道路瀝青鋪設-油溶(SC)
+101   C 1007 TE  * ASSUME                                道路瀝青鋪設-乳化
+101   D 1007 TE  * ASSUME                                道路瀝青鋪設-膠泥
+83      1194 FB  ( SPECIATE > 78 )                       汽車保養-補漆
+78      1194 FB  ( SPECIATE > 83 )                       汽車保養-維修
+79      1196 FB                                          乾洗業
+80      1191 FB                                          印刷業
+94      0197 FD  ( SPECIATE > 95 )                       一般消費用品
+94    B 0197 FD  ( SPECIATE > 95 )                       一般消費用品
+93    B 0197 FE  ( SPECIATE > 94 )                       工業製品表面塗裝
+93    C 9004 FE  ( SPECIATE > 106)                       纖維織物印染業
+106     9004 FE  ( SPECIATE > 105)                       原料藥製造業
+81    A 9014 FE  ( SPECIATE > 81 )                       塑膠製品製造業-膠帶製造
+81    B 9014 FE                                          塑膠製品製造業-PU皮
+81    C 9014 FE                                          塑膠製品製造業-PVC皮加工
+81    D 9014 FE                                          塑膠製品製造業-不飽和聚  加工
+81    E 9014 FE                                          橡膠製品製造業-汽車內胎
+81    F 9014 FE                                          橡膠製品製造業-汽車外胎
+81    G 9014 FE                                          橡膠製品製造業-機車內胎
+81    H 9014 FE                                          橡膠製品製造業-機車外胎
+81    I 9014 FE                                          橡膠製品製造業-自行車內胎
+81    J 9014 FE                                          橡膠製品製造業-自行車外胎
+81    K 9014 FE                                          製鞋業
+81    L 0197 FE                                          製鞋業
+95      0182 FE  ( SPECIATE > 93 )                       印刷電路板製造業
