@@ -6,7 +6,7 @@
       parameter(NPOL=11,LDATE=366)
       CHARACTER NAMPOL(0:NPOL)*3,myr*4
       DATA NAMPOL/'TMP','SO2','CMO','OZN','PMT',
-     +  'NOX','P25','NO2','THC','NMH','WSP','WDR'/
+     +  'NOX','P25','NO2','OZ8','NMH','WSP','WDR'/
 C** 
       open(21,file='cwb_epa.csv',
      +  status='old')
@@ -66,7 +66,7 @@ c-----Allocate
       DO it=1,ntime 
         read(1,300,end=99)is,A4(js),Jul,ical,
      & (var(1,j,js,it),j=1,9),ws,wd,(var(2,j,js,it),j=1,8)
-300     FORMAT(I3,A4,I8,1x,I6,7F7.1,2f8.0,9f7.1,f8.0)
+300     FORMAT(I3,A4,8x,I8,1x,I6,7F7.1,2f8.0,9f7.1,f8.0)
           var(1,8,js,it)=amax1(0.,var(1,9,js,it))
         do j=1,8
           var(1,j,js,it)=amax1(0.,var(1,j,js,it))
@@ -77,6 +77,20 @@ c-----Allocate
         write(fmt,'(A,I1,A)')'(A4,I',k,',A1,I3.3,A4)'
 !       write(*,trim(fmt))'nst.',iss,'=',is,A4(js)
       ENDDO ! LOOP FOR STATION
+!ozone 8 hour average
+      j=3 !for ozone
+      var(:,9,:,:)=0
+      DO js=1,nst
+        if(lstn(js).eq.0)cycle
+      DO iom=1,2
+      DO it=4,ntime-4
+        do it2=it-3,it+4
+          var(iom,9,js,it)=var(iom,9,js,it)+var(iom,j,js,it2)/8.
+        ENDDO
+      ENDDO
+      ENDDO !LOOP FOR DAY
+      ENDDO ! LOOP FOR STATION
+
       nlev=1
       nflag=1
       Atime=0
@@ -87,7 +101,8 @@ c-----Allocate
       if(lstn(js).eq.0)cycle
       write(stn,'(I3.3,A4)')isq(JS)!,A4(JS)
       !if(it.eq.1)print*,stn
-      write(21)stn,y(JS),x(JS),Atime,nlev,nflag,((var(i,j,js,it),i=1,2),j=1,8)
+      write(21)stn,y(JS),x(JS),Atime,nlev,nflag,((var(i,j,js,it),i=1,2),j=1,9)
+!     print*,stn,y(JS),x(JS),Atime,nlev,nflag,((var(i,j,js,it),i=1,2),j=1,8)
       ENDDO ! LOOP FOR STATION
       write(21)stn,0.0,0.0,0.0,0,0
       itime=itime+1
