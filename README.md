@@ -3,4 +3,4 @@ creating, running and processing  CAMx(Comprehensive Airquality Model with eXten
 
 see [wiki for this repository](https://github.com/sinotec2/camxruns/wiki)
 
-(not substantially updated since 2017.)
+(not substantially revised since 2016.)
